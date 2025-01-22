@@ -1,0 +1,257 @@
+
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  /* Specific colors for individual links */
+nav a:nth-child(2) {
+    color: #4dc3ff; /* Blue */
+  }
+  
+  nav a:nth-child(3) {
+    color: #57c78d; /* Green */
+  }
+  
+  nav a:nth-child(4) {
+    color: #a076c6; /* Purple */
+  }
+  
+  
+  
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .logo img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  header .logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f79c00;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  header nav ul li a.contact-btn {
+    background-color: #f79c00;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .hero-text h1 span {
+    color: #00aaff;
+  }
+  
+  .hero-text p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .hero-text .enroll-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .hero-image img {
+    width: 300px;
+  }
+  
+  /* Curriculum Section */
+  .curriculum {
+    text-align: center;
+    padding: 50px;
+    background-color: #fefefe;
+  }
+  
+  .curriculum h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .curriculum-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .curriculum-cards .card {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .curriculum-cards .card img {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .curriculum-cards .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .curriculum-cards .card p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .curriculum-cards .card a {
+    text-decoration: none;
+    color: #00aaff;
+    font-weight: bold;
+  }
+  
+  /* Stories Section */
+  .stories {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+  }
+  
+  .stories h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .story-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .story {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .story img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .story h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .story p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .stories .view-all {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #007acc;
+    color: #fff;
+  }
+  
+  footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  footer .social-icons a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  
